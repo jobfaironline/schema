@@ -26,7 +26,7 @@ BEGIN
     WHILE i<n DO
             SET status = 0;
             SELECT a.jobFairId, a.companyId, a.company_register_start_time, a.company_register_end_time, a.start_time, a.registrationId, a.registrationStatus, a.company_buy_booth_start_time, a.company_buy_booth_end_time, a.companyBoothId, a.end_time
-            INTO companyId, jobFairId, company_register_start_time, company_register_end_time, start_time, registrationId, registrationStatus, company_buy_booth_start_time, company_buy_booth_end_time, companyBoothId, end_time
+            INTO jobFairId, companyId, company_register_start_time, company_register_end_time, start_time, registrationId, registrationStatus, company_buy_booth_start_time, company_buy_booth_end_time, companyBoothId, end_time
             FROM company_job_fair_status_view a LIMIT i,1;
             SET id = uuid();
 

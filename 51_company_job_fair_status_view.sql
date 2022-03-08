@@ -6,7 +6,7 @@ FROM
     (SELECT company.id as companyId, job_fair.id as jobFairId, job_fair.company_register_start_time, job_fair.company_register_end_time, job_fair.start_time, job_fair.company_buy_booth_start_time, job_fair.company_buy_booth_end_time, job_fair.end_time
      FROM company 
      CROSS JOIN job_fair 
-     WHERE job_fair.status = 4
+     WHERE job_fair.status = 4 #JOB FAIR MUST BE APPROVED
     ) a
     LEFT JOIN (
         SELECT t.id as registrationId, t.job_fair_id as jobFairId, t.company_id as companyId, t.status as registrationStatus, o.id as orderId, o.status as orderStatus, cb.booth_id as companyBoothId
