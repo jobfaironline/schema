@@ -19,7 +19,7 @@ BEGIN
 
 
     SET currentTime = UNIX_TIMESTAMP() * 1000;
-    DELETE FROM attendant_job_fair_status;
+    DELETE FROM admin_job_fair_status;
     SELECT COUNT(*) FROM job_fair j WHERE j.status = 4 INTO n;
     SET i=0;
     WHILE i<n DO
