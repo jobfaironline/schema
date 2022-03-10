@@ -37,20 +37,23 @@ BEGIN
                 SET status = 1;
             END IF ;
             IF registrationId IS NOT NULL AND currentTime < start_time THEN
-                IF registrationStatus = 2 THEN
+                IF registrationStatus = 2 AND currentTime < company_register_end_time THEN
                     SET status = 2;
                 END IF ;
                 IF registrationStatus = 4 AND currentTime < company_buy_booth_start_time THEN
                     SET status = 3;
                 END IF ;
-                IF registrationStatus = 5 AND currentTime < company_buy_booth_start_time THEN
+                IF registrationStatus = 5 AND currentTime < company_register_end_time THEN
                     SET status = 4;
                 END IF ;
                 IF registrationStatus = 4 AND currentTime > company_buy_booth_start_time AND currentTime < company_buy_booth_end_time THEN
                     SET status = 5;
                 END IF ;
-                IF registrationStatus = 4 AND companyBoothId IS NOT NULL AND currentTime > start_time THEN
+                IF registrationStatus = 4 AND companyBoothId IS NOT NULL AND currentTime < start_time THEN
                     SET status = 6;
+                END IF ;
+                IF registrationStatus = 6 AND currentTime < company_register_end_time THEN
+                    SET status = 10;
                 END IF ;
             END IF ;
             IF currentTime > start_time AND currentTime < end_time THEN
