@@ -61,9 +61,9 @@ BEGIN
             END IF ;
             IF currentTime > end_time THEN
                 IF companyBoothId IS NOT NULL THEN
-                    SET status = 8;
-                ELSE
                     SET status = 9;
+                ELSE
+                    SET status = 8;
                 END IF;
             END IF ;
 
