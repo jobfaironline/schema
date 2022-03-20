@@ -57,4 +57,3 @@ VALUES ('0c7221c2-5511-42c1-8498-025925795d79', 'DevOps', 'Bui Minh Khoi', 'khoi
         'exercitation dolore voluptate', 9999, 10000, 232, NULL, 0, 0, 'vi', 'd53dece8-39e8-4980-83e9-c5f5b03b85ad', NULL),
        ('d6ed7db8-0757-4258-80bd-8bf07e6a72f2', 'Lao cong', 'Bui Minh Khoi', 'khoii@apple.com', 'CEO Job',
         'Have a lot of money', 10, 1000, 10, NULL, 0, 0, 'vi', '289d72db-ac48-48c7-8df5-22d3d216f1b5', NULL);
-
