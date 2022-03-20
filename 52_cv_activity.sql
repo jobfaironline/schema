@@ -7,7 +7,7 @@ CREATE TABLE `cv_activity`
     `organization`        varchar(100)  DEFAULT '',
     `from_date`           bigint        DEFAULT '0',
     `to_date`             bigint        DEFAULT '0',
-    `is_current_activity` bigint        DEFAULT '0',
+    `is_current_activity` tinyint(1)    DEFAULT '0',
     `description`         varchar(5000) DEFAULT NULL,
     `cv_id`               char(36)      DEFAULT NULL,
     PRIMARY KEY (`id`),
