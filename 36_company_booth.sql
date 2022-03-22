@@ -35,8 +35,8 @@ VALUES ('086d69e3-ca58-4393-b1d1-9a1f2abfe48a', 0, '7c5a62f5-0274-4d89-a2f1-33a6
         '7245eb9b-cf23-48be-b21b-51b97912a095'),
        ('e2d29b7a-1c63-4c81-9bf2-61ad0aa8e809', 0, '545a7988-20a9-45d7-92c0-1f4c6c87991d',
         '73730f6a-c84b-4588-931e-e6c5d2d51b3b'),
-       ('9fb94527-8f2e-452f-afd0-7ee3c28701b8', 0, '42c916da-bb98-465b-948e-9906009e2292',
-        '8940a53f-13c4-4d5f-8d67-3fa14235288f'),
+--        ('9fb94527-8f2e-452f-afd0-7ee3c28701b8', 0, '42c916da-bb98-465b-948e-9906009e2292',
+--         '8940a53f-13c4-4d5f-8d67-3fa14235288f'),
        ('6849cedd-9b3a-46fb-b110-0fb4c7072956', 0, 'a1b05444-a3ff-4749-ae68-8876528ce824',
         '947f4dfc-32c4-4c0f-ad57-4a89fc44bb72'),
        ('27f5dcc7-2da5-4326-8475-c83174fac71c', 0, 'b72ac362-56a5-407f-82e9-10cd44311d1d',
@@ -59,4 +59,4 @@ VALUES ('086d69e3-ca58-4393-b1d1-9a1f2abfe48a', 0, '7c5a62f5-0274-4d89-a2f1-33a6
         'f18e8f28-67dc-402f-ab75-1ca416f43ca3');
 
 INSERT INTO dbo.company_booth (booth_id, price, order_id, id) VALUES ('7a1829e2-9f87-46fb-b6b9-212b7d4b9557', 20, 'd5405309-edef-4089-a681-d989124387c3', '171be8b2-98ac-4547-82d6-36855ab66e0e');
-INSERT INTO dbo.company_booth (booth_id, price, order_id, id) VALUES ('7a1829e2-9f87-46fb-b6b9-212b7d4b9557', 20, '7ce9cca6-16c6-4ef2-a108-e7c017f74a13', '725b9ed0-67d0-452f-8d50-81cc9676615e');
+-- INSERT INTO dbo.company_booth (booth_id, price, order_id, id) VALUES ('7a1829e2-9f87-46fb-b6b9-212b7d4b9557', 20, '7ce9cca6-16c6-4ef2-a108-e7c017f74a13', '725b9ed0-67d0-452f-8d50-81cc9676615e');

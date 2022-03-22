@@ -27,7 +27,7 @@ INSERT INTO `company_registration` (`id`, `create_date`, `description`, `job_fai
 VALUES ('0d38c868-b05d-4a5b-836a-8631bf34d881', 1641085200000, 'Samsung\s registration',
         '12a74ea8-ff97-44e0-bbc1-d76403c61aae', 'b3434860-38f0-48c2-9628-a38cae1cfb70', 4, NULL, NULL,
         '8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
-       ('12731309 - d8cd - 4e0e - 84d6 - 02c4a79f830a ', 1641085200000, 'Casumina\s registration',
+       ('12731309-d8cd-4e0e-84d6-02c4a79f830a ', 1641085200000, 'Casumina\s registration',
         '12a74ea8-ff97-44e0-bbc1-d76403c61aae', '7dce8588-d055-4740-bd49-95056a9f9c35', 4, NULL, NULL,
         '8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
        ('28ecc452-2cec-4dac-83fc-e1570cf6bb73', 1647418849000,
