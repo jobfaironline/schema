@@ -19,9 +19,7 @@ CREATE TABLE `account`
     KEY                 `account_gender_id_fk` (`gender_id`),
     CONSTRAINT `account_gender_id_fk` FOREIGN KEY (`gender_id`) REFERENCES `gender` (`id`),
     CONSTRAINT `account_role_id_fk` FOREIGN KEY (`role_id`) REFERENCES `role` (`id`)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO dbo.account (id, email, password, status, phone, profile_image_url, firstname, lastname, middlename,
                          gender_id, role_id, create_time)

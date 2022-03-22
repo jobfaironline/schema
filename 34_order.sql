@@ -8,11 +8,9 @@ CREATE TABLE `order`
     `status`                  int      NOT NULL,
     `company_registration_id` char(36) NOT NULL,
     PRIMARY KEY (`id`),
-    KEY `order_company_registration_id_fk` (`company_registration_id`),
+    KEY                       `order_company_registration_id_fk` (`company_registration_id`),
     CONSTRAINT `order_company_registration_id_fk` FOREIGN KEY (`company_registration_id`) REFERENCES `company_registration` (`id`)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `order` (`id`, `total`, `create_date`, `cancel_date`, `status`, `company_registration_id`)
 VALUES ('09f16bc0-872e-4c52-8dcd-3e12a9af4ab0', 0, 1641085200000, NULL, 1, '60268e5e-30c8-472f-b84c-0789adcc5812'),

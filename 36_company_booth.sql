@@ -6,13 +6,11 @@ CREATE TABLE `company_booth`
     `order_id` char(36) NOT NULL,
     `id`       char(36) NOT NULL,
     PRIMARY KEY (`id`),
-    KEY `company_booth_booth_id_fk` (`booth_id`),
-    KEY `company_booth_order_id_fk` (`order_id`),
+    KEY        `company_booth_booth_id_fk` (`booth_id`),
+    KEY        `company_booth_order_id_fk` (`order_id`),
     CONSTRAINT `company_booth_booth_id_fk` FOREIGN KEY (`booth_id`) REFERENCES `booth` (`id`),
     CONSTRAINT `company_booth_order_id_fk` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `company_booth` (`booth_id`, `price`, `order_id`, `id`)
 VALUES ('086d69e3-ca58-4393-b1d1-9a1f2abfe48a', 0, '7c5a62f5-0274-4d89-a2f1-33a6779124b3',
@@ -58,5 +56,7 @@ VALUES ('086d69e3-ca58-4393-b1d1-9a1f2abfe48a', 0, '7c5a62f5-0274-4d89-a2f1-33a6
        ('7a1829e2-9f87-46fb-b6b9-212b7d4b9557', 0, '7d22d1c4-bb8b-455e-8d16-e66c59ff45a1',
         'f18e8f28-67dc-402f-ab75-1ca416f43ca3');
 
-INSERT INTO dbo.company_booth (booth_id, price, order_id, id) VALUES ('7a1829e2-9f87-46fb-b6b9-212b7d4b9557', 20, 'd5405309-edef-4089-a681-d989124387c3', '171be8b2-98ac-4547-82d6-36855ab66e0e');
+INSERT INTO dbo.company_booth (booth_id, price, order_id, id)
+VALUES ('7a1829e2-9f87-46fb-b6b9-212b7d4b9557', 20, 'd5405309-edef-4089-a681-d989124387c3',
+        '171be8b2-98ac-4547-82d6-36855ab66e0e');
 -- INSERT INTO dbo.company_booth (booth_id, price, order_id, id) VALUES ('7a1829e2-9f87-46fb-b6b9-212b7d4b9557', 20, '7ce9cca6-16c6-4ef2-a108-e7c017f74a13', '725b9ed0-67d0-452f-8d50-81cc9676615e');

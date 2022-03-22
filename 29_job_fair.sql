@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `job_fair`;
 CREATE TABLE `job_fair`
 (
     `id`                            char(36) NOT NULL,
