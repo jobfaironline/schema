@@ -23,18 +23,19 @@ CREATE TABLE `job_fair`
     `created_time`                  bigint        DEFAULT '0',
     `updated_time`                  bigint        DEFAULT '0',
     PRIMARY KEY (`id`),
-    KEY `job_fair_layout_id_fk` (`layout_id`),
-    KEY `job_fair_authorizer_id_fk` (`authorizer_id`),
-    KEY `job_fair_creator_id_fk` (`creator_id`),
+    KEY                             `job_fair_layout_id_fk` (`layout_id`),
+    KEY                             `job_fair_authorizer_id_fk` (`authorizer_id`),
+    KEY                             `job_fair_creator_id_fk` (`creator_id`),
     CONSTRAINT `job_fair_creator_id_fk` FOREIGN KEY (`creator_id`) REFERENCES `account` (`id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_0900_ai_ci;
-INSERT INTO job_fair (id, company_register_start_time, company_register_end_time,
-                      company_buy_booth_start_time, company_buy_booth_end_time, attendant_register_start_time,
-                      start_time, end_time, description, layout_id, status, creator_id, authorizer_id,
-                      reject_reason, cancel_reason, thumbnail, name, estimate_participant, target_company,
-                      target_attendant, created_time, updated_time)
+
+INSERT INTO `job_fair` (`id`, `company_register_start_time`, `company_register_end_time`,
+                        `company_buy_booth_start_time`, `company_buy_booth_end_time`, `attendant_register_start_time`,
+                        `start_time`, `end_time`, `description`, `layout_id`, `status`, `creator_id`, `authorizer_id`,
+                        `reject_reason`, `cancel_reason`, `thumbnail`, `name`, `estimate_participant`, `target_company`,
+                        `target_attendant`, `created_time`, `updated_time`)
 VALUES ('12a74ea8-ff97-44e0-bbc1-d76403c61aae', 1640998800000, 1641776400000, 1640998800000, 1643590800000,
         1644886800000, 1646096400000, 1648774800000,
         'The annual event RMIT Career Fair will support RMIT students and alumni navigate the transition from university to industry. This year, the Virtual Career Fair will connect RMIT participants with professionals from over 30 companies and organisations in different industries. This is your chance to share your values and boost your employability! \n\nDuring this time of uncertainty, RMIT students and alumni from all campuses can join in the event for free by accessing an interactive digital platform. With the 24/7 available access to the VCF digital platform, students and alumni can log in and browse for job and internship opportunities anytime, anywhere. Between 7 and 9 September, you can interact directly with company recruiters to get more in-time information through the chatbox or video call, available sessions are:\nMorning: 9 - 11am\nAfternoon: 2 - 4pm',

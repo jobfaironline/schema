@@ -12,7 +12,7 @@ CREATE TABLE `order` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
-INSERT INTO order (id, total, create_date, cancel_date, status, company_registration_id)
+INSERT INTO `order` (`id`, `total`, `create_date`, `cancel_date`, `status`, `company_registration_id`)
 VALUES ('09f16bc0-872e-4c52-8dcd-3e12a9af4ab0', 0, 1641085200000, NULL, 1, '60268e5e-30c8-472f-b84c-0789adcc5812'),
        ('1d849f33-b1e0-4cba-8e27-433faa5f77e2', 0, 1641085200000, NULL, 1, '37457cca-37cb-4a5f-b6c4-c00e2d9157ab'),
        ('3501a859-d681-4880-a9d4-abfda78e3398', 0, 1641085200000, NULL, 1, 'e6aedd15-0d09-43ae-97c6-931dfd421912'),
