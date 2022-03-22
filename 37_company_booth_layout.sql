@@ -11,7 +11,7 @@ CREATE TABLE `company_booth_layout` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
-INSERT INTO company_booth_layout (id, company_booth_id, version, create_date, url)
+INSERT INTO `company_booth_layout` (`id`, `company_booth_id`, `version`, `create_date`, `url`)
 VALUES ('1009fb64-a4fe-495e-aa88-83542d07b3f2', 'b996bfea-b032-4b1c-9990-6bcdda209230', 0, 1641085200000,
         'https://d3polnwtp0nqe6.cloudfront.net/Booth/1009fb64-a4fe-495e-aa88-83542d07b3f2'),
        ('17481e57-f5e2-4c47-a408-130802af59dd', '232a64f5-1e0a-489e-9971-7ad3e7fae7f0', 0, 1641085200000,
