@@ -15,6 +15,5 @@ CREATE TABLE cv
     CONSTRAINT attendant_id_cv___fk FOREIGN KEY (attendant_id) REFERENCES attendant (account_id),
     CONSTRAINT job_level_cv___fk FOREIGN KEY (job_level) REFERENCES job_level (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-INSERT INTO cv (id, attendant_id, email, phone, year_of_exp, job_level, job_title)
-VALUES ('d45ed5e0-a7f8-11ec-a83b-f7e48e1bdaf5', 'fba88e6a-742b-4ffa-9ac7-a8058520957f', 'default@email.com',
-        '0912345678', 0, 0, 'default');
+INSERT INTO dbo.cv (id, attendant_id, email, phone, year_of_exp, job_level, job_title) VALUES ('7cbe9910-8bf5-4e11-90bb-63d7a8d16c79', '3f6eda7f-4c49-4f6c-83b2-a4c72612510a', 'soncao@gmail.com', '0912345678', 2, 0, 'Giup viec');
+INSERT INTO dbo.cv (id, attendant_id, email, phone, year_of_exp, job_level, job_title) VALUES ('d45ed5e0-a7f8-11ec-a83b-f7e48e1bdaf5', 'fba88e6a-742b-4ffa-9ac7-a8058520957f', 'default@email.com', '0912345678', 0, 0, 'default');
