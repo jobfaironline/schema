@@ -36,7 +36,7 @@ VALUES ('0d38c868-b05d-4a5b-836a-8631bf34d881', 1641085200000, 'Samsung\s regist
         use your screens side by side to extend your workspace, and even draw with Apple Pencil on your iPad or use your
         iPhone to make live updates on your Mac.And it’s all compatible with apps from Microsoft and Google,
         so your team has everything it needs to get any job done.',
-        '2d6276c2-a500-11ec-a2ac-54bf6408ab1f', '8e407290 - 9bdb - 4e12 - b7d3 - d1ffdd1d8479', 4, NULL, NULL,
+        '2d6276c2-a500-11ec-a2ac-54bf6408ab1f', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 4, NULL, NULL,
         '8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
        ('367aec52-21b5-47db-97db-9046780e69f8', 1641085200000, 'Đại Cát Tường\s registration',
         '12a74ea8-ff97-44e0-bbc1-d76403c61aae', 'e347ce34-c8c0-4335-9439-29de524cb925', 4, NULL, NULL,
@@ -65,7 +65,7 @@ VALUES ('0d38c868-b05d-4a5b-836a-8631bf34d881', 1641085200000, 'Samsung\s regist
        ('785533cd-9790-4f28-823a-e0d2e3371b12', 1641085200000, 'Hai Au\s registration',
         '12a74ea8-ff97-44e0-bbc1-d76403c61aae', '7b61a726-b1c2-43ca-81dd-0a7883d1ad14', 4, NULL, NULL,
         '8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
-       ('80676959 - e18f - 4597 - b865 - 82437134a25e ', 1647418849000,
+       ('80676959-e18f-4597-b865-82437134a25e ', 1647418849000,
         'With great power comes great productivity.\nApple hardware, software, and services work together to deliver a
         seamless experience that just works.You can start a project on Mac and finish it on iPad,
         use your screens side by side to extend your workspace, and even draw with Apple Pencil on your iPad or use your
@@ -74,7 +74,8 @@ VALUES ('0d38c868-b05d-4a5b-836a-8631bf34d881', 1641085200000, 'Samsung\s regist
         'bd81701f-a4fe-11ec-a2ac-54bf6408ab1f', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 4, NULL, NULL,
         '8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
        ('8fdfaf52-0e69-48f3-a875-1424ef7a7e90', 1641085200000, 'FPT Software\s registration',
-        '12a74ea8-ff97-44e0-bbc1-d76403c61aae', 'fe99c965-3dc7-4391-9665-1c7c72cce981', 4, NULL, NULL,'8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
+        '12a74ea8-ff97-44e0-bbc1-d76403c61aae', 'fe99c965-3dc7-4391-9665-1c7c72cce981', 4, NULL, NULL,
+        '8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
        ('905e48b0-9162-4b01-8f7c-369f97169e08', 1641085200000, 'KMS\s registration',
         '12a74ea8-ff97-44e0-bbc1-d76403c61aae', '18def343-36b0-47d8-bf4d-8789f7c48cd1', 4, NULL, NULL,
         '8ddd27e1-fa08-486a-a752-77f6971b23e3', '79dc6dea-8a7d-4ecc-a5cf-6eeb843467f0'),
