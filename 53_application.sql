@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS cv;
+DROP TABLE IF EXISTS application;
 CREATE TABLE `application`
 (
     `id`                           char(36) NOT NULL,
