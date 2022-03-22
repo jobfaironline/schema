@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS cv;
 CREATE TABLE cv
 (
     id           char(36) NOT NULL,
