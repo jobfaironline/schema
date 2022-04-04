@@ -7,6 +7,7 @@ CREATE TABLE `layout_booth`
     `x`         float    DEFAULT NULL,
     `y`         float    DEFAULT NULL,
     `z`         float    DEFAULT NULL,
+    `status`    int      DEFAULT NULL,
     PRIMARY KEY (`id`),
     KEY `booth_layout_id_fk` (`layout_id`),
     CONSTRAINT `booth_layout_id_fk` FOREIGN KEY (`layout_id`) REFERENCES `layout` (`id`)
