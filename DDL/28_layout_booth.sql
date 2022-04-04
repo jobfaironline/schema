@@ -1,10 +1,8 @@
-DROP TABLE IF EXISTS `booth`;
-CREATE TABLE `booth`
+DROP TABLE IF EXISTS `layout_booth`;
+CREATE TABLE `layout_booth`
 (
     `id`        char(36)     NOT NULL,
-    `price`     float    DEFAULT NULL,
     `layout_id` char(36) DEFAULT NULL,
-    `status`    int      DEFAULT NULL,
     `name`      varchar(100) NOT NULL,
     `x`         float    DEFAULT NULL,
     `y`         float    DEFAULT NULL,
@@ -15,4 +13,5 @@ CREATE TABLE `booth`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_0900_ai_ci;
+
 

@@ -12,7 +12,7 @@ CREATE TABLE `account`
     `middlename`        varchar(100) DEFAULT NULL,
     `gender_id`         int           NOT NULL,
     `role_id`           int           NOT NULL,
-    `create_time`       bigint        NULL,
+    `create_time`       bigint       DEFAULT '0',
     PRIMARY KEY (`id`),
     UNIQUE KEY `account_email_uindex` (`email`),
     KEY `account_role_id_fk` (`role_id`),

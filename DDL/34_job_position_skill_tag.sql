@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS `job_position_skill_tag`;
 CREATE TABLE `job_position_skill_tag`
 (
     `id`          int NOT NULL AUTO_INCREMENT,

@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS `media`;
-CREATE TABLE `media`
+DROP TABLE IF EXISTS `company_media`;
+CREATE TABLE `company_media`
 (
     `id`         char(36)      NOT NULL,
     `url`        varchar(2048) NOT NULL,
