@@ -1,0 +1,3 @@
+DROP DATABASE `dbo`;
+CREATE DATABASE IF NOT EXISTS `dbo`;
+USE `dbo`;
