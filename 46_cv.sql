@@ -7,6 +7,7 @@ CREATE TABLE `cv` (
   `year_of_exp` int DEFAULT '0',
   `job_level` int DEFAULT '0',
   `job_title` varchar(100) DEFAULT '',
+  `name` varchar(100) DEFAULT '',
   PRIMARY KEY (`id`),
   UNIQUE KEY `cv_id_uindex` (`id`),
   KEY `job_level_cv___fk` (`job_level`),
