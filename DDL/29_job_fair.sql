@@ -14,6 +14,7 @@ CREATE TABLE `job_fair`
     `thumbnail_url`       varchar(2048) DEFAULT '',
     `status`              int           DEFAULT '0',
     `cancel_reason`       varchar(500)  DEFAULT '',
+    `host_name`           varchar(100)  DEFAULT '',
     `company_id`          char(36) NOT NULL,
     PRIMARY KEY (`id`),
     KEY `job_fair_company_id_fk` (`company_id`),
