@@ -1,3 +1,4 @@
+
 DELETE
 FROM `3d_media`;
 
