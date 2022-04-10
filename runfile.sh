@@ -3,18 +3,14 @@ cd DDL/
 for filename in $(ls -1 * | sort -n); do
         cat $filename >> schema.sql;
 done
-mv schema.sql ..
-cd ..
-mysql -u $DB_USER -p$DB_PASSWORD < schema.sql
+mysql -h $DATASOURCE_URL -P $DATASOURCE_PORT -u $DATASOURCE_USERNAME -p$DATASOURCE_PASSWORD < schema.sql
 rm schema.sql
 
-cd DML/
+cd ../DML/
 for filename in $(ls -1 * | sort -n); do
 	cat $filename >> schema.sql;
 done
 
-mv schema.sql ..
-cd ..
-mysql -u $DB_USER -p$DB_PASSWORD < schema.sql
-
+mysql -h $DATASOURCE_URL -P $DATASOURCE_PORT -u $DATASOURCE_USERNAME -p$DATASOURCE_PASSWORD < schema.sql
+rm schema.sql
 
