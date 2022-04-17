@@ -1,5 +1,5 @@
 DELETE
-FROM `layout_booth`;
+FROM dbo.`layout`;
 
 INSERT INTO `layout` (`id`, `name`, `url`, `description`, `company_id`, `thumbnail_url`)
 VALUES ('b40ab83c-8f13-44ea-91b7-993f2263efae', 'template layout',
