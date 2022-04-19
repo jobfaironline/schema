@@ -3,7 +3,8 @@ CREATE TABLE `job_fair_booth`
 (
     `id`          char(36) NOT NULL,
     `booth_id`    char(36) NOT NULL,
-    `job_fair_id` char(36) DEFAULT NULL,
+    `job_fair_id` char(36)     DEFAULT NULL,
+    `description` varchar(500) DEFAULT '',
     PRIMARY KEY (`id`),
     KEY `company_booth_booth_id_fk` (`booth_id`),
     KEY `job_fair_booth_job_fair_id_fk` (`job_fair_id`),
