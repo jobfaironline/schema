@@ -5,6 +5,7 @@ CREATE TABLE `assignment`
     `type`                int      NOT NULL,
     `job_fair_booth_id`   char(36) DEFAULT NULL,
     `company_employee_id` char(36) DEFAULT NULL,
+    `create_time`         bigint        DEFAULT '0',
     PRIMARY KEY (`id`),
     KEY `assignment_company_employee_account_id_fk` (`company_employee_id`),
     KEY `assignment_job_fair_booth_id_fk` (`job_fair_booth_id`),
