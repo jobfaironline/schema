@@ -1,3 +1,4 @@
+
 DROP TABLE IF EXISTS `booth_job_position`;
 CREATE TABLE `booth_job_position`
 (
@@ -5,8 +6,8 @@ CREATE TABLE `booth_job_position`
     `title`                  varchar(100) NOT NULL,
     `contact_person_name`    varchar(100) NOT NULL,
     `contact_email`          varchar(100) NOT NULL,
-    `description`            text         NOT NULL,
-    `requirements`           text         NOT NULL,
+    `description`            varchar(255) NOT NULL,
+    `requirements`           varchar(500) NOT NULL,
     `min_salary`             double       NOT NULL,
     `max_salary`             double       DEFAULT NULL,
     `num_of_position`        int          NOT NULL,
@@ -22,16 +23,12 @@ CREATE TABLE `booth_job_position`
     `pass_mark`              int          DEFAULT '0',
     `note`                   varchar(500) DEFAULT '',
     PRIMARY KEY (`id`),
-    KEY `registration_job_position_job_type_id_fk` (`job_type_id`),
-    KEY `registration_job_position_language_id_fk` (`preferred_language_id`),
-    KEY `registration_job_position_level_id_fk` (`level_id`),
-    KEY `booth_job_position_job_fair_booth_id_fk` (`job_fair_booth_id`),
+    KEY                      `registration_job_position_job_type_id_fk` (`job_type_id`),
+    KEY                      `registration_job_position_language_id_fk` (`preferred_language_id`),
+    KEY                      `registration_job_position_level_id_fk` (`level_id`),
+    KEY                      `booth_job_position_job_fair_booth_id_fk` (`job_fair_booth_id`),
     CONSTRAINT `booth_job_position_job_fair_booth_id_fk` FOREIGN KEY (`job_fair_booth_id`) REFERENCES `job_fair_booth` (`id`),
     CONSTRAINT `registration_job_position_job_type_id_fk` FOREIGN KEY (`job_type_id`) REFERENCES `job_type` (`id`),
     CONSTRAINT `registration_job_position_language_id_fk` FOREIGN KEY (`preferred_language_id`) REFERENCES `language` (`id`),
     CONSTRAINT `registration_job_position_level_id_fk` FOREIGN KEY (`level_id`) REFERENCES `job_level` (`id`)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
-
-
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
