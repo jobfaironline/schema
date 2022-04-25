@@ -1,7 +1,6 @@
-DELETE
-FROM `job_position`;
-
-INSERT INTO `job_position`
+INSERT INTO `job_position` (`id`, `title`, `contact_person_name`, `contact_email`, `company_id`, `location_id`,
+                            `level_id`, `job_type_id`, `preferred_language_id`, `description`, `requirements`,
+                            `created_date`, `last_updated_date`)
 VALUES ('087dc708-43fa-4c1d-8363-22cdbef03c86', 'Lao Công có ích', 'Bui Minh Khoi', 'khoii@apple.com',
         '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', NULL, 0, 0, 'vi', 'lala', 'lala', 1646975155, 1646975155),
        ('0bcef355-eb66-48c2-8f08-35b55d5442c8', 'consequat magna fugiat nulla aliqua', 'ut est exercitation',

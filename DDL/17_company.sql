@@ -11,13 +11,11 @@ CREATE TABLE `company`
     `websiteURL`       varchar(2048) DEFAULT NULL,
     `size_id`          int           DEFAULT NULL,
     `status`           int      NOT NULL,
-    `description`      text,
+    `description`      varchar(500)  DEFAULT NULL,
     `company_logo_url` varchar(2048) DEFAULT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `company_taxID_uindex` (`taxID`),
     UNIQUE KEY `company_email_uindex` (`email`),
-    KEY `company_company_size_id_fk` (`size_id`),
+    KEY                `company_company_size_id_fk` (`size_id`),
     CONSTRAINT `company_company_size_id_fk` FOREIGN KEY (`size_id`) REFERENCES `company_size` (`id`)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
