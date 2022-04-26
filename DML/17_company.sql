@@ -1,3 +1,5 @@
+DELETE FROM `company`;
+
 INSERT INTO `company` (`id`, `taxID`, `name`, `address`, `phone`, `email`, `employee_max_num`, `websiteURL`, `size_id`,
                        `status`, `description`, `company_logo_url`)
 VALUES ('18def343-36b0-47d8-bf4d-8789f7c48cd1', '0316236745', 'KMS', 'KMS', '0917499917', 'email@kms.com', 5,
