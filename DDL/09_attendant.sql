@@ -9,7 +9,7 @@ CREATE TABLE `attendant`
     `year_of_exp`    float         DEFAULT NULL,
     `marital_status` tinyint(1)    DEFAULT NULL,
     `country_id`     char(36)      DEFAULT NULL,
-    `residence_id`   char(36)      DEFAULT NULL,
+    `residence_id`   int           DEFAULT NULL,
     `job_level_id`   int           DEFAULT NULL,
     PRIMARY KEY (`account_id`),
     KEY `account_residence_id_fk` (`residence_id`),
