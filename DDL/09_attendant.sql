@@ -8,7 +8,7 @@ CREATE TABLE `attendant`
     `job_title`      varchar(100)  DEFAULT NULL,
     `year_of_exp`    float         DEFAULT NULL,
     `marital_status` tinyint(1)    DEFAULT NULL,
-    `country_id`     char(36)      DEFAULT NULL,
+    `country_id`     int           DEFAULT NULL,
     `residence_id`   int           DEFAULT NULL,
     `job_level_id`   int           DEFAULT NULL,
     PRIMARY KEY (`account_id`),
@@ -22,4 +22,3 @@ CREATE TABLE `attendant`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_0900_ai_ci;
-
