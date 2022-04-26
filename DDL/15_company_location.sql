@@ -3,7 +3,7 @@ CREATE TABLE `company_location`
 (
     `id`             char(36) NOT NULL,
     `office_name`    varchar(50)  DEFAULT NULL,
-    `country_id`     char(36)     DEFAULT NULL,
+    `country_id`     int     DEFAULT NULL,
     `office_address` varchar(100) DEFAULT NULL,
     PRIMARY KEY (`id`),
     KEY `job_location_country_id_fk` (`country_id`),

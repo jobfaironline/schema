@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `country`;
 CREATE TABLE `country`
 (
-    `id`   char(36) NOT NULL,
+    `id`   int NOT NULL,
     `name` varchar(1000) DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
