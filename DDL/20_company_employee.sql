@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS `company_employee`;
 CREATE TABLE `company_employee`
 (
     `account_id` char(36) NOT NULL,
-    `employee_id` varchar(40) NOT NULL UNIQUE,
+    `employee_id` varchar(40) NOT NULL,
     `company_id` char(36) DEFAULT NULL,
     `department` varchar(100) DEFAULT NULL,
     PRIMARY KEY (`account_id`),
