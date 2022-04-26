@@ -1,3 +1,5 @@
+DELETE FROM `certification`;
+
 INSERT INTO `certification` (`id`, `name`, `institution`, `issue_date`, `certification_link`, `attendant_id`,
                              `expired_date`, `does_not_expired`)
 VALUES ('6a4b9dd0-0fb8-4c51-93f1-b1c10a537a65', 'ga cung lam', 'lam cung ga', 1999, 'acawa',
