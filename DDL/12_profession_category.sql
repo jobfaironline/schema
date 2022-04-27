@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `profession_category`;
 CREATE TABLE `profession_category`
 (
-    `id`   int NOT NULL,
+    `id`   int NOT NULL AUTO_INCREMENT,
     `name` varchar(100) DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
