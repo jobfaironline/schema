@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `skill_tag`;
 CREATE TABLE `skill_tag`
 (
-    `id`   int NOT NULL,
+    `id`   int NOT NULL AUTO_INCREMENT,
     `name` varchar(100) DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
