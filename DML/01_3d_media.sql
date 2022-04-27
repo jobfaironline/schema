@@ -1,4 +1,6 @@
-INSERT INTO `3d_media` (`id`, `url`, `name`, `description`, `type`, 
+DELETE FROM `3d_media`;
+
+INSERT INTO `3d_media` (`id`, `url`, `name`, `description`, `type`,
 `thumbnail_url`)
 VALUES ('898e23ec-0049-41b4-bd02-01a8c52ff703',
         

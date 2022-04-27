@@ -1,3 +1,5 @@
+DELETE from `cv_certification`;
+
 INSERT INTO `cv_certification` (`id`, `name`, `institution`, `issue_date`, `certification_link`, `cv_id`,
                                 `expired_date`, `does_not_expired`)
 VALUES ('04d197da-a7f9-11ec-a83b-f7e48e1bdaf5', 'AWS', 'AWS', 2022, 'https://aws.com',

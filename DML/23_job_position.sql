@@ -1,3 +1,5 @@
+DELETE FROM `job_position`;
+
 INSERT INTO `job_position` (`id`, `title`, `contact_person_name`, `contact_email`, `company_id`, `location_id`,
                             `level_id`, `job_type_id`, `preferred_language_id`, `description`, `requirements`,
                             `created_date`, `last_updated_date`)
