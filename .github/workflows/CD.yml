@@ -23,7 +23,9 @@ jobs:
       - run: |
              cd DDL/
              for filename in $(ls -1 * | sort -n); do
-              cat $filename >> schema.sql;
+              if [[ $filename != "00."* ]]; then
+               cat $filename >> schema.sql
+              fi
              done
              mysql -h $DATASOURCE_URL -P $DATASOURCE_PORT -u $DATASOURCE_USERNAME -p$DATASOURCE_PASSWORD < schema.sql
              rm schema.sql
