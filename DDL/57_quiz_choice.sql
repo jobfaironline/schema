@@ -6,6 +6,7 @@ CREATE TABLE `quiz_choice`
     `is_correct`       tinyint      DEFAULT NULL,
     `is_selected`      tinyint      DEFAULT NULL,
     `quiz_question_id` char(36)     DEFAULT NULL,
+    `origin_choice_id` char(36)     DEFAULT NULL,
     PRIMARY KEY (`id`),
     KEY `quiz_choice_quiz_question_id_fk` (`quiz_question_id`),
     CONSTRAINT `quiz_choice_quiz_question_id_fk` FOREIGN KEY 
