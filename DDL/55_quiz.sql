@@ -7,8 +7,6 @@ CREATE TABLE `quiz`
     `is_submitted`       tinyint  DEFAULT NULL,
     `mark`               double   DEFAULT NULL,
     `application_id`     char(36) DEFAULT NULL,
-    `duration`           mediumtext,
-    `number_of_question` int      DEFAULT NULL,
     PRIMARY KEY (`id`),
     KEY `quiz_application_id_fk` (`application_id`),
     CONSTRAINT `quiz_application_id_fk` FOREIGN KEY (`application_id`) 
