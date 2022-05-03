@@ -19,24 +19,12 @@ CREATE TABLE `application`
     `attendant_id`          char(36)      DEFAULT NULL,
     `origin_cv_id`          char(36)      DEFAULT NULL,
     PRIMARY KEY (`id`),
-    KEY `cv_application_id_fk` (`cv_id`),
-    KEY `application_authorizer_id__fk` (`authorizer_id`),
-    KEY `application_booth_job_position_id_fk` (`booth_job_position_id`),
-    CONSTRAINT `application_authorizer_id__fk` FOREIGN KEY
-(`authorizer_id`) REFERENCES `company_employee` (`account_id`),
-    CONSTRAINT `application_booth_job_position_id_fk` FOREIGN KEY
-(`booth_job_position_id`) REFERENCES `booth_job_position` (`id`),
-    CONSTRAINT `cv_application_id_fk` FOREIGN KEY (`cv_id`) REFERENCES
-`cv` (`id`)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
     KEY `application_authorizer_id__fk` (`authorizer_id`),
     KEY `application_booth_job_position_id_fk` (`booth_job_position_id`),
     KEY `application_job_level_id_fk` (`job_level`),
     KEY `application_attendant_account_id_fk` (`attendant_id`),
-    CONSTRAINT `application_attendant_account_id_fk` FOREIGN KEY (`attendant_id`) REFERENCES `attendant` (`account_id`),
     CONSTRAINT `application_authorizer_id__fk` FOREIGN KEY (`authorizer_id`) REFERENCES `company_employee` (`account_id`),
+    CONSTRAINT `application_attendant_account_id_fk` FOREIGN KEY (`attendant_id`) REFERENCES `attendant` (`account_id`),
     CONSTRAINT `application_booth_job_position_id_fk` FOREIGN KEY (`booth_job_position_id`) REFERENCES `booth_job_position` (`id`),
     CONSTRAINT `application_job_level_id_fk` FOREIGN KEY (`job_level`) REFERENCES `job_level` (`id`)
 ) ENGINE = InnoDB
