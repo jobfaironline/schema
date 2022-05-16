@@ -24,6 +24,8 @@ CREATE TABLE `application`
     `interview_status`      int           DEFAULT NULL,
     `interviewer_id`        char(36)      DEFAULT NULL,
     `interview_url`         varchar(2048) DEFAULT NULL,
+    `waiting_room_id`       char(37)      DEFAULT NULL,
+    `interview_room_id`     char(37)      DEFAULT NULL,
     PRIMARY KEY (`id`),
     KEY `application_booth_job_position_id_fk` (`booth_job_position_id`),
     KEY `application_job_level_id_fk` (`job_level`),
