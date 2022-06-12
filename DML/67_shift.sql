@@ -1,1 +1,1 @@
-DELETE FROM 'shift';
+DELETE FROM `shift`;
