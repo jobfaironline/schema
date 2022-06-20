@@ -102,7 +102,7 @@ VALUES ('04eda9de-e547-4d76-a3e5-4dc04b63d20a', 'registercompanymanager@gmail.co
         '$2a$10$DxBb1rZ52c8.nOYdtm.2p.AsaGarLrVxb1glzBBsDVK4h6R1ZOc1S', 1, '0907752199',
         'https://d3polnwtp0nqe6.cloudfront.net/default.png', 'Tram', 'DAO', 'Bao', 1, 2, 0),
        ('f996f062-c1d5-4fcc-a13c-8cae1e210d0d', 'employee2@apple.com',
-        '$2a$10$S8oshqehIWBh1rXYbhZopulo/syNMEbysiW4Y9zQf1mPPeQW4y7IG', 1, '0917499917',
+        '$2a$10$S8oshqehIWBh1rXYbhZopulo/syNMEbysiW4Y9zQf1mPPeQW4y7IG', 0, '0917499917',
         'https://d3polnwtp0nqe6.cloudfront.net/default.png', '(Apple) Truong', 'Tran (Employee)', 'Tien', 0, 2, 0),
        ('fba88e6a-742b-4ffa-9ac7-a8058520957f', 'attendant1@jofair.com',
         '$2a$10$qYRho4ZJt9LNkbmQtL4Yc.IzGzzy.smfq2OkUD1IYF.eH9rFpq61O', 0, '0917499917',
