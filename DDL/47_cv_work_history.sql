@@ -10,6 +10,7 @@ CREATE TABLE `cv_work_history`
     `is_current_job` tinyint(1)    DEFAULT NULL,
     `description`    varchar(5000) DEFAULT NULL,
     `cv_id`          char(36)      DEFAULT NULL,
+    `description_key_word` text,
     PRIMARY KEY (`id`),
     KEY `work_history_cv_id_fk` (`cv_id`),
     CONSTRAINT `work_history_cv_id_fk` FOREIGN KEY (`cv_id`) REFERENCES `cv` (`id`)
