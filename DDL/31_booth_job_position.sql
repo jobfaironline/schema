@@ -21,6 +21,8 @@ CREATE TABLE `booth_job_position`
     `num_of_question`        int          DEFAULT '0',
     `pass_mark`              int          DEFAULT '0',
     `note`                   varchar(500) DEFAULT '',
+    `description_key_word`   text         DEFAULT NULL,
+    `requirement_key_word`   text         DEFAULT NULL,
     PRIMARY KEY (`id`),
     KEY `registration_job_position_job_type_id_fk` (`job_type_id`),
     KEY `registration_job_position_language_id_fk` (`preferred_language_id`),
