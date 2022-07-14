@@ -1,2 +1,5 @@
 DELETE
 FROM `cv_activity`;
+
+INSERT INTO `cv_activity` (`id`, `name`, `function_title`, `organization`, `from_date`, `to_date`, `is_current_activity`, `description`, `cv_id`, `description_key_word`) VALUES ('e4dc4479-071a-4275-9f60-e477357a5f74', 'Coding', 'Coding', 'Singapore', 1644771600000, 1647190800000, 1, '["front end","web development","m","software","software engineer"]', '47d6d762-351a-45bf-943f-db50d36fd5e3', null);
+INSERT INTO `cv_activity` (`id`, `name`, `function_title`, `organization`, `from_date`, `to_date`, `is_current_activity`, `description`, `cv_id`, `description_key_word`) VALUES ('ff8ffc79-7623-46cb-bad5-c9f7ddb9e680', 'Sleeping', 'Sleeping', 'Singapore', 1642093200000, 1644771600000, 1, '["front end","web development","m","software","software engineer"]', '47d6d762-351a-45bf-943f-db50d36fd5e3', null);
