@@ -29,15 +29,23 @@ CREATE TABLE `application`
     `attendant_disadvantage` varchar(500)  DEFAULT NULL,
     `interview_note`         varchar(500)  DEFAULT NULL,
     `matching_point`         double        DEFAULT NULL,
+    `about_me`               varchar(5000) DEFAULT NULL,
+    `country_id`             int           DEFAULT '0',
+    `full_name`              varchar(300)  DEFAULT NULL,
+    `profile_image_url`      varchar(2048) DEFAULT NULL,
+
     PRIMARY KEY (`id`),
     KEY `application_booth_job_position_id_fk` (`booth_job_position_id`),
     KEY `application_job_level_id_fk` (`job_level`),
     KEY `application_attendant_account_id_fk` (`attendant_id`),
     KEY `application_interviewer_id_fk` (`interviewer_id`),
+    KEY `application_country_id_fk` (`country_id`),
+
     CONSTRAINT `application_attendant_account_id_fk` FOREIGN KEY (`attendant_id`) REFERENCES `attendant` (`account_id`),
     CONSTRAINT `application_booth_job_position_id_fk` FOREIGN KEY (`booth_job_position_id`) REFERENCES `booth_job_position` (`id`),
     CONSTRAINT `application_interviewer_id_fk` FOREIGN KEY (`interviewer_id`) REFERENCES `company_employee` (`account_id`),
-    CONSTRAINT `application_job_level_id_fk` FOREIGN KEY (`job_level`) REFERENCES `job_level` (`id`)
+    CONSTRAINT `application_job_level_id_fk` FOREIGN KEY (`job_level`) REFERENCES `job_level` (`id`),
+    CONSTRAINT `application_country_id_fk` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_0900_ai_ci;
