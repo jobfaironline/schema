@@ -2,7 +2,7 @@ drop table if exists choices;
 create table choices
 (
     id         char(36)   not null,
-    content    nvarchar(255) null,
+    content    nvarchar(500) null,
     isCorrect  tinyint       null,
     questionId char(36)      null,
     constraint choices_pk
