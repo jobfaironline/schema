@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `residence`;
 CREATE TABLE `residence`
 (
-    `id`   int NOT NULL AUTO_INCREMENT,
+    `id`   int NOT NULL,
     `name` varchar(1000) DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB

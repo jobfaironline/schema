@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `gender`;
 CREATE TABLE `gender`
 (
-    `id`          int NOT NULL AUTO_INCREMENT,
+    `id`          int NOT NULL,
     `name`        varchar(100)  DEFAULT NULL,
     `description` varchar(1000) DEFAULT NULL,
     PRIMARY KEY (`id`)

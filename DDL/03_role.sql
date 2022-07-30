@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `role`;
 CREATE TABLE `role`
 (
-    `id`          int NOT NULL AUTO_INCREMENT,
+    `id`          int NOT NULL,
     `name`        varchar(1000) DEFAULT NULL,
     `description` varchar(1000) DEFAULT NULL,
     PRIMARY KEY (`id`)

@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `job_level`;
 CREATE TABLE `job_level`
 (
-    `id`   int NOT NULL AUTO_INCREMENT,
+    `id`   int NOT NULL,
     `name` varchar(100) DEFAULT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
