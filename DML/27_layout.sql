@@ -1,8 +1,9 @@
 DELETE
 FROM dbo.`layout`;
 
-INSERT INTO `layout` (`id`, `name`, `url`, `description`, `company_id`, `thumbnail_url`)
-VALUES ('b40ab83c-8f13-44ea-91b7-993f2263efae', 'template layout',
-        'https://d3polnwtp0nqe6.cloudfront.net/Layout/b40ab83c-8f13-44ea-91b7-993f2263efae', 'template layout', NULL,
-        'https://d3polnwtp0nqe6.cloudfront.net/Layout-thumbnail/layout.png');
+INSERT INTO `layout`
+VALUES ('ca8979fb-07de-448c-9da1-cd1f485a4255', 'Default layout',
+        'https://d1t63ajhfi2lx8.cloudfront.net/Layout/ca8979fb-07de-448c-9da1-cd1f485a4255', 'Default layout', NULL,
+        'https://d1t63ajhfi2lx8.cloudfront.net/Layout-thumbnail/ca8979fb-07de-448c-9da1-cd1f485a4255');
+
 
