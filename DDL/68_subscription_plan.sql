@@ -5,7 +5,9 @@ CREATE TABLE subscription_plan
         primary key,
     name        varchar(100) null,
     description varchar(300) null,
-    price       double       null
+    price       double       null,
+    valid_period bigint      null
+
 );
 
 
