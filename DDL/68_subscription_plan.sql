@@ -6,7 +6,9 @@ CREATE TABLE subscription_plan
     name        varchar(100) null,
     description varchar(300) null,
     price       double       null,
-    valid_period bigint      null
+    valid_period bigint      null,
+        jobfair_quota          int          null
+
 
 );
 
