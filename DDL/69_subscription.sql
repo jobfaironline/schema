@@ -14,8 +14,8 @@ create table subscription
     transaction_id         char(100)    null,
     refund_status          int          null,
     refund_reason          varchar(400) null,
-        jobfair_quota          int          null,
-
+    jobfair_quota          int          null,
+    max_job_fair_quota     int          null,
     constraint subscription_company_id_fk
         foreign key (company_id) references company (id),
     constraint subscription_subscription_plan_id_fk
