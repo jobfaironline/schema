@@ -3,10 +3,12 @@ CREATE TABLE subscription_plan
 (
     id          char(36)     not null
         primary key,
-    name        varchar(100) DEFAULT '',
-    description varchar(300) DEFAULT '',
-    price       double       DEFAULT '0',
-    valid_period bigint      DEFAULT '0'
+    name        varchar(100) null,
+    description varchar(300) null,
+    price       double       null,
+    valid_period bigint      null,
+        jobfair_quota          int          null
+
 
 );
 
