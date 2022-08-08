@@ -16,7 +16,7 @@ create table subscription
     refund_reason          varchar(400) null,
     jobfair_quota          int          null,
     max_job_fair_quota     int          null,
-    requester_id           char(36)         null
+    requester_id           char(36)     null,
     constraint subscription_company_id_fk
         foreign key (company_id) references company (id),
     constraint subscription_subscription_plan_id_fk
