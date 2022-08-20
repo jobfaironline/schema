@@ -3,7 +3,9 @@ FROM `company_employee`;
 
 INSERT INTO `company_employee`
 VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a79b-ef56ff308137', 'SE'),
+       ('07e1b4f0-bc5b-419d-94e9-cc297452cd8e', 'MS01', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment'),
        ('09d6442a-10cb-4748-93ca-6c1d5ab4fe5a', 'KAT016', '8d207faf-dbde-4d36-a79b-ef56ff308137', 'SE'),
+       ('0a71f5f3-38a2-435d-8543-3c86f42f7bb7', 'MS07', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('1514dd43-1735-4633-a7eb-6003b8973c3e', 'KMS003', '5776fa1c-468b-4476-beeb-2997a364a226', 'SE'),
        ('1b2f41f1-ffff-442d-90e3-73848b8e580a', 'NAS010', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('1cca38e3-81bc-420b-81ba-fc5eacffb1fc', 'KAT020', '8d207faf-dbde-4d36-a79b-ef56ff308137', 'SE'),
@@ -23,6 +25,7 @@ VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a7
        ('37820127-4878-46d8-9ff4-77959e00f347', 'NAS002', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('38359950-7298-46b1-848f-8052db6ff078', 'MS023', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 'SE'),
        ('38abd4c4-c691-45db-96fe-e3dbb73082cd', 'KAT004', '8d207faf-dbde-4d36-a79b-ef56ff308137', 'SE'),
+       ('3c138378-6a3e-433d-a6bf-7f4e4c9d86e1', 'MS02', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment'),
        ('3ead1bca-f481-4de6-a076-7ee5b61100cb', 'NAS007', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('413c278b-7eb5-46c8-8653-f7ee8fb6abd1', 'MS025', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 'SE'),
        ('416b8dda-d7ea-4f10-a964-c515acedf34a', 'NAS014', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
@@ -45,6 +48,7 @@ VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a7
        ('5aac5f9e-7dde-4f7a-88bb-851bbf9927a7', 'FSO008', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE'),
        ('5cdc6edc-80cf-40bd-8dcd-626704dbdc6d', NULL, '9db38e17-cd7b-4030-bda8-4ba91282d019', NULL),
        ('5cffebef-e89e-44b6-b0d2-0101ecaea940', 'KMS001', '5776fa1c-468b-4476-beeb-2997a364a226', 'SE'),
+       ('5d6bdee8-ec3c-40eb-b3d1-0b29ece33097', 'MS05', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('5d90179b-de15-4591-be28-12d1f613b2d8', 'MS017', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 'SE'),
        ('5d9481d6-c40a-4645-96a4-e5748411eaae', 'KMS005', '5776fa1c-468b-4476-beeb-2997a364a226', 'SE'),
        ('629258ff-b34a-43a1-ac7f-12eed8956837', NULL, '8d207faf-dbde-4d36-a79b-ef56ff308137', NULL),
@@ -65,7 +69,9 @@ VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a7
        ('8eb93f1d-53e2-44b3-90ed-92a76c498f58', 'NAS004', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('9115bfb3-d1da-4166-8e39-17c4f1c4e447', 'FSO010', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE'),
        ('92658863-3245-4667-93a1-08763aa71b45', 'FSO006', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE'),
+       ('993e86da-b5d5-487b-856e-6233850af676', 'MS08', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('9c0758e6-4694-46d2-821b-f7d36fc67570', 'FSO004', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE'),
+       ('9ed356b4-fd6c-41ee-a24c-1bd10af02d6c', 'MS04', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('9f0fd76e-e0b0-4dde-ad4e-5b9614a6792c', 'KMS009', '5776fa1c-468b-4476-beeb-2997a364a226', 'SE'),
        ('a3977e13-91b1-4ff6-aeb7-77ae2718228d', 'KMS019', '5776fa1c-468b-4476-beeb-2997a364a226', 'SE'),
        ('a44620fa-5016-4e32-bbc9-7c63e987ac5d', 'NAS020', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
@@ -76,9 +82,11 @@ VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a7
        ('ae82c09f-42d3-4e43-a1c9-4f3829fc8cb9', 'NAS013', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('aefbdafa-48c1-4fdb-b5ec-11d1e5cf190a', NULL, '41973a70-b1d3-4495-9eae-13e9bc6a252c', NULL),
        ('b0219e9d-94f3-482a-b592-502538751e11', 'NAS017', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
+       ('b3d5a19d-9b1c-42f6-83d1-cd85677eea38', 'MS06', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('b50b8919-d882-4cd8-98db-64e1bd11f0a1', 'NAS019', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('b59e2f8c-6786-426d-b37c-a83374803f6b', 'NAS015', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('b801b111-95bd-4615-8f65-45838a70f6a9', 'NAS003', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
+       ('b8577af1-caa4-47ed-915a-fcceaca38e36', NULL, '2c8dd7cb-37e0-4848-871c-94575295ee67', NULL),
        ('b9367d91-c2e4-418d-8ead-4bb03f47ed9c', 'MS021', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 'SE'),
        ('b9f301ec-4c07-482e-80f6-196c5358ea23', 'NAS016', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('ba702bec-95a3-458b-af2c-aa2eb69f5e05', 'FSO013', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE'),
@@ -94,6 +102,7 @@ VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a7
        ('cf9dd921-6b00-4bd5-9752-1199a6c0d41f', 'KMS018', '5776fa1c-468b-4476-beeb-2997a364a226', 'SE'),
        ('cfbc8db6-dcd6-412a-b65b-2947a3b0ed32', 'NAS018', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('d29c69d7-4a41-4af3-bffc-a06611de8cea', 'KAT017', '8d207faf-dbde-4d36-a79b-ef56ff308137', 'SE'),
+       ('d2fb3916-26a3-4ea9-93a7-c4963bfd3f76', 'MS03', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('d3b6d7c5-fd6e-4fcb-bd6b-2b6979f67d49', 'KAT014', '8d207faf-dbde-4d36-a79b-ef56ff308137', 'SE'),
        ('d4518d69-6b4c-4fa2-8194-83abb295073e', 'NAS009', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('d4789e61-e311-4cec-a9b3-f7d78a8462f3', 'FSO017', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE'),
@@ -104,6 +113,7 @@ VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a7
        ('e73d0985-4839-44e2-b70d-e69c347dfdbe', 'MS011', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 'SE'),
        ('e77dc5dd-4571-48e3-9840-7d20e7fdb592', 'KAT003', '8d207faf-dbde-4d36-a79b-ef56ff308137', 'SE'),
        ('e7adf847-cf24-41df-964e-f0a325df8936', 'MS020', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 'SE'),
+       ('e82f08c8-07a9-42dc-b194-fdc76735ae42', 'MS10', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('e8df7b1d-dd0f-48c6-ae05-f606547cd38a', 'NAS012', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
        ('f5cd9b3a-c4cb-421d-8bb8-3d17116b2412', NULL, '5776fa1c-468b-4476-beeb-2997a364a226', NULL),
        ('f996f062-c1d5-4fcc-a13c-8cae1e210d0d', 'MS004', '8e407290-9bdb-4e12-b7d3-d1ffdd1d8479', 'SE'),
@@ -111,7 +121,9 @@ VALUES ('03c6e23e-7cc5-4e0c-a290-b87e7a4358e6', 'KAT015', '8d207faf-dbde-4d36-a7
        ('facea820-3d01-4574-9b33-33b6c3e2849a', 'FSO005', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE'),
        ('fb397916-92f8-4745-8e79-a55feb6cd56c', 'KMS011', '5776fa1c-468b-4476-beeb-2997a364a226', 'SE'),
        ('fc3b66b3-d881-46aa-98c2-dd4020ffcbab', 'NAS011', '9db38e17-cd7b-4030-bda8-4ba91282d019', 'SE'),
+       ('fe437ad0-bee7-43a1-89b1-d2c390dc9ef2', 'MS09', '2c8dd7cb-37e0-4848-871c-94575295ee67', 'Recruitment	'),
        ('ffeb513f-8d1b-4aab-bef4-06b9056fff82', 'FSO003', '41973a70-b1d3-4495-9eae-13e9bc6a252c', 'SE');
+
 
 
 

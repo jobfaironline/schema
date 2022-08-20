@@ -2,7 +2,11 @@ DELETE
 FROM `company`;
 
 INSERT INTO `company`
-VALUES ('41973a70-b1d3-4495-9eae-13e9bc6a252c', '12348590a0df', 'FPT Software',
+VALUES ('2c8dd7cb-37e0-4848-871c-94575295ee67', '12345678123', 'FPT University', 'Lô E2a-7, Đường D1, Đ. D1',
+        '02873005588', 'fptu@fptu.com', 500, NULL, 4, 0,
+        'Cung cấp năng lực cạnh tranh toàn cầu cho đông đảo người học, góp phần mở mang bờ cõi trí tuệ đất nước.',
+        'https://d1t63ajhfi2lx8.cloudfront.net/CompanyLogo/2c8dd7cb-37e0-4848-871c-94575295ee67'),
+       ('41973a70-b1d3-4495-9eae-13e9bc6a252c', '12348590a0df', 'FPT Software',
         'Đường D1, Đ. D1, Phường Tân Phú, Quận 9, Thành phố Hồ Chí Minh 715650', '2312312313', 'fsoft@fsoft.com', 500,
         'https://www.fpt-software.com/', 4, 0,
         'FPT Corporation is a global leading technology and IT services provider headquartered in Vietnam, with nearly US$1.3 billion in revenue and 30,000 employees in 26 countries. As a pioneer in digital transformation, FPT delivers world-class services in Smart factory, Digital platforms, RPA, AI, IoT, Enterprise Mobility, Cloud, AR/VR, Business Applications, Application Services, BPO, and so on. The company has served over 700+ customers worldwide, a hundred of which are Fortune Global 500 companies',
@@ -26,5 +30,6 @@ VALUES ('41973a70-b1d3-4495-9eae-13e9bc6a252c', '12348590a0df', 'FPT Software',
         '1231313221', 'nashtech@nashtech.com', 500, 'https://nashtechglobal.com/', 4, 0,
         'We started with two small offices, one in London and one in Hanoi, Vietnam back in 2000 and now have over seven offices internationally, with thousands of technical experts who are constantly encouraged to challenge traditional thinking, be honest and react quickly to change.',
         'https://d1t63ajhfi2lx8.cloudfront.net/CompanyLogo/9db38e17-cd7b-4030-bda8-4ba91282d019');
+
 
 
