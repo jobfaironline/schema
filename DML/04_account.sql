@@ -437,7 +437,7 @@ VALUES ('01a5786f-586a-4a72-9bcb-16d2358e6bb4', 'attendant26@jobfair.com',
         'https://d1t63ajhfi2lx8.cloudfront.net/Default/human.jpg', 'John', 'Doe', 'Employee 14', 0, 2, 1658903623108),
        ('c4fba70f-09d3-400b-b062-c00f96cec9e4', 'employee3@apple.com',
         '$2a$10$2381bv6i7R80.JWdTuKzeemms5FerCVN60SL9xXemstmHKCVpoKfS', 0, '0917499917',
-        'https://d1t63ajhfi2lx8.cloudfront.net/Default/human.jpg', 'John', 'Employee 3 (Supervisor)', 'Doe', 0, 2, 2),
+        'https://d1t63ajhfi2lx8.cloudfront.net/Default/human.jpg', 'John', 'Employee 3 (Staff)', 'Doe', 0, 2, 2),
        ('c5f89358-8512-49d3-bc99-79ea674c9c98', 'employee14@fsoft.com',
         '$2a$10$2381bv6i7R80.JWdTuKzeemms5FerCVN60SL9xXemstmHKCVpoKfS', 0, NULL,
         'https://d1t63ajhfi2lx8.cloudfront.net/Default/default_avatar.jpg', 'John ', 'Employee 14 fsoft', 'Doe', 0, 2,
@@ -580,6 +580,7 @@ VALUES ('01a5786f-586a-4a72-9bcb-16d2358e6bb4', 'attendant26@jobfair.com',
         '$2a$10$2381bv6i7R80.JWdTuKzeemms5FerCVN60SL9xXemstmHKCVpoKfS', 0, NULL,
         'https://d1t63ajhfi2lx8.cloudfront.net/Default/default_avatar.jpg', 'John', 'Employee 3 fsoft', 'Doe', 0, 2,
         1659294428918);
+
 
 
 
