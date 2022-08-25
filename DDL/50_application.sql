@@ -33,6 +33,7 @@ CREATE TABLE `application`
     `full_name`              varchar(300)  DEFAULT NULL,
     `country_id`             int           DEFAULT NULL,
     `profile_image_url`      varchar(2048) DEFAULT NULL,
+    `is_qualified`           tinyint(1)    DEFAULT NULL,
     PRIMARY KEY (`id`),
     KEY `application_booth_job_position_id_fk` (`booth_job_position_id`),
     KEY `application_job_level_id_fk` (`job_level`),
